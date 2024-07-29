@@ -18,7 +18,7 @@ def user_user2(user,user2):
         if ((user=="rock" and user2=="scissor") or\
             (user=="scissor" and user2=="paper") or\
             (user=="paper" and user2=="rock")):
-            print("User2 WON")
+            print("User1 WON")
         else:
             print("user2 WON")
 input_type=input("Choose System or User: ")
